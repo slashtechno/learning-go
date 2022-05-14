@@ -1,2 +1,1 @@
-	// var i int                 // declare a variable without setting a value
-	// var i int = 1             // Declare a variable with a specific type and value
+https://youtu.be/YS4e4q9oBaU?t=2625
