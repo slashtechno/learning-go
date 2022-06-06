@@ -1,4 +1,4 @@
-package main // Needs to be in every Go program
+package main
 
 // Import packages
 import (

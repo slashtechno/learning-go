@@ -5,7 +5,7 @@ This creates the `go.mod` file which records dependencies
 ### Imporing (local) packages from a Go program  
 There are two ways to import packages in Go:  
 `import package`  
-```
+```go
 import(
     "package"
     "anotherpackage"
@@ -39,7 +39,7 @@ If the local package is in a subdirectory of the current module, for example, `i
     * The folder should have the name of the package you are creating.  
     * The file name doesn't matter.  
 The file should contain code that is similar  to the following:   
-```  
+```go  
 package <packagename>
 funcion <functioname> {
     <function code>
