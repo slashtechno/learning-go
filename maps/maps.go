@@ -9,7 +9,6 @@ func main() {
 	// Assign values
 	emails["x"] = "x@example.com"
 	emails["y"] = "y@example.com"
-
 	fmt.Print("Current email map: ")
 	fmt.Println(emails)
 
@@ -23,4 +22,9 @@ func main() {
 	phones := map[string]int{"x": 1005551000, "y": 2005552000}
 	fmt.Print("Current phone map: ")
 	fmt.Println(phones)
+	// Iterate over map data
+	for k, v := range phones {
+		fmt.Print("Key: ", k+" ")
+		fmt.Println("Value: ", v)
+	}
 }
