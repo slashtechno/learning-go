@@ -1,4 +1,4 @@
-t### Creating a module  
+### Creating a module  
 Most Go code should be initialized as a module. Modules allow for easy management of dependencies and packages.  
 To initalize the current directory as a module: `go mod init name`  
 This creates the `go.mod` file which records dependencies  

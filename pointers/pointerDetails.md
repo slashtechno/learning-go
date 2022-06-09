@@ -16,5 +16,5 @@ fmt.Println(*y) // Assumes y was declared as a pointer
 ```  
 Changing the value of the original variable using a pointer:  
 ```go
-*y = 5 // Assumesy was a declared as a pointer
+*y = 5 // Assumes was a declared as a pointer
 ```  
