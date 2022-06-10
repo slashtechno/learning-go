@@ -13,6 +13,10 @@ When declaring a map, the first type is for specifying key type while the second
 * `exampleMap = map[string]string { "x": "a", "y": "b"}` - Inialize a map with data  
     * Will overwrite existing data  
 
+### The type `any`  
+Some types of data require specified types for data (maps, slices, etc). In the case where multiple types may be used, `any` can be used instead of specifying a type.  
+For example, `phones := map[any]any{"x": 1005551000, "y": 2005552000}`  
+
 ## Accessing Map Data  
 #### Retrieve value from a key  
 `fmt.Println(exampleMap["key"])`  
