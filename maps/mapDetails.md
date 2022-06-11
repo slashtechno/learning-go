@@ -16,7 +16,7 @@ When declaring a map, the first type is for specifying key type while the second
 ### The type `any`  
 Some types of data require specified types for data (maps, slices, etc). In the case where multiple types may be used, `any` can be used instead of specifying a type.  
 For example, `phones := map[any]any{"x": 1005551000, "y": 2005552000}`  
-
+Also, `any` is an alias for `interface{}`  
 ## Accessing Map Data  
 #### Retrieve value from a key  
 `fmt.Println(exampleMap["key"])`  
