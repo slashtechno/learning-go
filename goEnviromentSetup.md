@@ -22,5 +22,12 @@ On Windows, this should already be the case. If not, search "Edit system environ
 If you're on Linux, you should edit `~/.bashrc` or your shell's equivalent and add the following line:  
 `export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"`  
 
+### Example configuration  
+```go
+export GOPATH="$HOME/go"
+export GOROOT="/usr/local/go"
+export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
+```
+
 ### Conclusion  
 Go relies on environment variables. There are ways to set these up, but `go env` is the simplest way. Also, GOPATH/bin and GOROOT/bin should be on your PATH.  
